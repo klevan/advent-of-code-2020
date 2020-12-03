@@ -2,7 +2,6 @@
 rm(list = ls())
 options(stringsAsFactors = F)
 library(dplyr)
-library(stringr)
 
 df = read.delim('~/GitHub/advent-of-code-2020/inputs/day-2.txt',
                 header = F,col.names = 'input')
